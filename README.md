@@ -3,6 +3,8 @@
 ![スクリーンショット 2024-11-27 21 45 29](https://github.com/user-attachments/assets/1c8f492f-d204-469f-b168-5b8c01d0946e)
 
 ## [2. Creating 3D entities with RealityKit](https://developer.apple.com/documentation/visionos/creating-3d-shapes-in-visionos-with-realitykit)
+![スクリーンショット 2024-12-03 18 33 47](https://github.com/user-attachments/assets/3cea144f-5ce8-4925-b7ee-4ffcf6d3dc7a)
+
 - 3Dオブジェクト（マテリアル）の追加方法   
   ① マテリアルの作成 (SimpleMaterial)  
   ② メッシュを生成 (MeshResource)  
