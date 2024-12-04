@@ -24,3 +24,11 @@
     /// OpenWindowActionインスタンスを取得するための環境値
     @Environment(\.openWindow) private var openWindow
     ```
+## 4. [Creating 3D models as movable windows](https://developer.apple.com/documentation/visionos/creating-a-volumetric-window-in-visionos#Load-a-3D-model-as-an-entity-in-a-view)
+<img width="676" alt="スクリーンショット 2024-12-04 19 01 52" src="https://github.com/user-attachments/assets/1c0f1c1c-272d-49f9-9ee9-fc1a861cc7e6">
+
+- [ローカル座標](http://3dcg.homeip.net/3d_process/3d_Process_coordinate.php#:~:text=%E3%81%8C%E3%81%82%E3%82%8A%E3%81%BE%E3%81%99-,%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E5%BA%A7%E6%A8%99,-%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB%E5%BA%A7%E6%A8%99%E3%81%A8)：3D 空間に配置されるオブジェクトを基準とした座標の事をいう。つまり、ローカル座標は一つだけ存在するわけではない。
+- [グローバル座標](http://3dcg.homeip.net/3d_process/3d_Process_coordinate.php#:~:text=%E3%81%84%E3%82%8B%E3%81%8B%E3%82%89%E3%81%A7%E3%81%99%E3%80%82-,%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E5%BA%A7%E6%A8%99,-%E3%82%B0%E3%83%AD%E3%83%BC%E3%83%90%E3%83%AB%E5%BA%A7%E6%A8%99%E3%81%A8)：三次元空間そのもの（世界）の位置を表す座標のこと。北極点が移動する事がないように、グローバル座標で指定された座標は絶対無二の存在であり決して移動することのない座標となっている。
+- GeometryReader3Dで、高さ、横幅、奥行きの情報を取得する。
+- RealityView内で3Dモデルを配置する。
+- ボリュメトリック・ウィンドウのサイズが変更された時に、3Dモデルのサイズ変更を反映させるためには、RealityViewのupdateクロージャの中でサイズ変更処理を行う。
