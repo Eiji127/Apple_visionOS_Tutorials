@@ -1,8 +1,8 @@
 # Apple visionOS Tutorials
-## [1. Creating 2D shapes with SwiftUI](https://developer.apple.com/documentation/visionos/creating-2d-shapes-in-visionos-with-swiftui)
+## 1. [Creating 2D shapes with SwiftUI](https://developer.apple.com/documentation/visionos/creating-2d-shapes-in-visionos-with-swiftui)
 ![スクリーンショット 2024-11-27 21 45 29](https://github.com/user-attachments/assets/1c8f492f-d204-469f-b168-5b8c01d0946e)
 
-## [2. Creating 3D entities with RealityKit](https://developer.apple.com/documentation/visionos/creating-3d-shapes-in-visionos-with-realitykit)
+## 2. [Creating 3D entities with RealityKit](https://developer.apple.com/documentation/visionos/creating-3d-shapes-in-visionos-with-realitykit)
 ![スクリーンショット 2024-12-03 18 33 47](https://github.com/user-attachments/assets/3cea144f-5ce8-4925-b7ee-4ffcf6d3dc7a)
 
 - 3Dオブジェクト（マテリアル）の追加方法   
@@ -13,7 +13,7 @@
 - [メッシュ](https://forest.watch.impress.co.jp/docs/serial/blenderwthing/1423222.html#:~:text=%E5%85%A8%E3%82%B8%E3%82%AA%E3%83%A1%E3%83%88%E3%83%AA-,%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5,-3DCG%E3%81%A7%E7%AB%8B%E4%BD%93)とは「3DCGで立体を表すデータ形式の1つである[「ポリゴンメッシュ」](https://ja.wikipedia.org/wiki/%E3%83%9D%E3%83%AA%E3%82%B4%E3%83%B3%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5)のこと。ポリゴン（多角形の面）が集合した中空の構造で形状を表現する。」のこと。
 - [ジオメトリ](https://forest.watch.impress.co.jp/docs/serial/blenderwthing/1423222.html#:~:text=Web%E3%80%8D%E3%82%92%E6%A4%9C%E8%A8%BC%EF%BC%81-,%E3%82%B8%E3%82%AA%E3%83%A1%E3%83%88%E3%83%AA,-%E3%80%8C%E5%BD%A2%E7%8A%B6%E3%80%8D%E3%81%BE%E3%81%9F%E3%81%AF%E3%80%8C%E5%BD%A2%E7%8A%B6)とは「「形状」または「形状データ」のことを指す。」のこと。
   
-## [3. Creating SwiftUI windows in visionOS](https://developer.apple.com/documentation/visionos/creating-a-new-swiftui-window-in-visionos)
+## 3. [Creating SwiftUI windows in visionOS](https://developer.apple.com/documentation/visionos/creating-a-new-swiftui-window-in-visionos)
 <img width="1092" alt="スクリーンショット 2024-12-04 15 40 35" src="https://github.com/user-attachments/assets/2ea73ad2-336b-48b2-8e52-18cf3dd10e9b">
 
 - 複数のWindowを表示したい場合は一意のIDをWindowに対して、割り振ってあげる必要がある。
