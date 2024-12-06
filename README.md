@@ -35,3 +35,7 @@
 
 ## 5. [Displaying text in visionOS](https://developer.apple.com/documentation/visionos/displaying-text-in-visionos)
 <img width="718" alt="スクリーンショット 2024-12-05 1 56 26" src="https://github.com/user-attachments/assets/edf9845a-c3da-4efe-995c-2332ef20b28a">
+
+## 6. [Adding a depth effect to text in visionOS](https://developer.apple.com/documentation/visionos/adding-a-depth-effect-to-text-in-visionos)
+<img width="778" alt="スクリーンショット 2024-12-06 16 40 14" src="https://github.com/user-attachments/assets/87db9f15-cad9-45eb-a30c-ae0b3e0e6e99">
+
