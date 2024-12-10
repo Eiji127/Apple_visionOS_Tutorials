@@ -39,3 +39,26 @@
 ## 6. [Adding a depth effect to text in visionOS](https://developer.apple.com/documentation/visionos/adding-a-depth-effect-to-text-in-visionos)
 <img width="778" alt="スクリーンショット 2024-12-06 16 40 14" src="https://github.com/user-attachments/assets/87db9f15-cad9-45eb-a30c-ae0b3e0e6e99">
 
+## 7. [Creating an interactive 3D model in visionOS](https://developer.apple.com/documentation/visionos/creating-an-interactable-3d-model-in-visionos)
+<img width="778" alt="スクリーンショット 2024-12-10 16 40 14" src="https://github.com/user-attachments/assets/4e358cec-149f-4d6f-ae6f-d988b1b977f0">  
+
+- ルートコンポーネント (Root Component)
+  - **意味**  
+    - 3Dオブジェクトが他のオブジェクトと衝突するかどうかを判断するための「当たり判定」を作る部分。
+  - **例え**
+    - ゲームでキャラクターが壁にぶつかるシーンを想像してください。このとき、キャラクターや壁に「見えない枠」が設定されていて、その枠同士がぶつかったときに「衝突」と認識されます。この「見えない枠」がコリジョンコンポーネントです。
+  - **役割**
+    - 物理的な衝突を計算する。  
+      - （例: キャラクターが壁を突き抜けないようにする）  
+    - オブジェクトが他のオブジェクトと接触した際のイベント（ダメージや跳ね返りなど）を引き起こす。  
+    - 形状はシンプルな図形（球、箱、カプセルなど）で設定されることが多い。これは計算を軽くするため。
+- コリジョンコンポーネント (Collision Component)
+  - **意味**  
+    - 3Dオブジェクトが他のオブジェクトと衝突するかどうかを判断するための「当たり判定」を作る部分。
+  - **例え**  
+    - ゲームでキャラクターが壁にぶつかるシーンを想像してください。このとき、キャラクターや壁に「見えない枠」が設定されていて、その枠同士がぶつかったときに「衝突」と認識されます。この「見えない枠」がコリジョンコンポーネントです。
+  - **役割**  
+    - 物理的な衝突を計算する。  
+      - （例: キャラクターが壁を突き抜けないようにする）  
+    - オブジェクトが他のオブジェクトと接触した際のイベント（ダメージや跳ね返りなど）を引き起こす。  
+    - 形状はシンプルな図形（球、箱、カプセルなど）で設定されることが多い。これは計算を軽くするため。
